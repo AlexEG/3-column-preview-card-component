@@ -1,14 +1,4 @@
-@use "./colors";
-
 body {
   background-color: var(--body-bg);
   min-height: 120vh;
-
-  main {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
