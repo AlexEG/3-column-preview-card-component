@@ -1,1 +1,27 @@
+body {
+  min-height: 120vh;
 
+  main {
+    @media (max-width: 375px) {
+      min-height: 150vh;
+      padding: 100px 20px;
+      align-items: flex-start;
+    }
+
+    .card__contaner {
+      @media (max-width: 375px) {
+        width: 335px;
+        min-height: 1250px;
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .header {
+      @media (max-width: 375px) {
+        background-image: url(../../assets/images/image-header-mobile.jpg);
+        height: 265px;
+        width: 300px;
+      }
+    }
+  }
+}
