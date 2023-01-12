@@ -3,23 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./assets/images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./dist/main.css" />
+    <link rel="stylesheet" href="./dist/all.min.css" />
 
     <title>Frontend Mentor | 3-column preview card component</title>
   </head>
   <body>
-    Sedans Choose a sedan for its affordability and excellent fuel economy.
-    Ideal for cruising in the city or on your next road trip. SUVs Take an SUV
-    for its spacious interior, power, and versatility. Perfect for your next
-    family vacation and off-road adventures. Luxury Cruise in the best car
-    brands without the bloated prices. Enjoy the enhanced comfort of a luxury
-    rental and arrive in style.
+    <div class="project">
+      <main>
+        <div class="contaner">
+          <div class="cards card1">
+            <picture
+              ><img src="./assets/images/icon-sedans.svg" alt="icon sedans"
+            /></picture>
+            <h1>Sedans</h1>
+            <p>
+              Choose a sedan for its affordability and excellent fuel economy.
+              Ideal for cruising in the city or on your next road trip.
+            </p>
+          </div>
+          <div class="cards card2">
+            <picture
+              ><img src="./assets/images/icon-suvs.svg" alt="icon suvs"
+            /></picture>
+            <h1>SUVs</h1>
+            <p>
+              Take an SUV for its spacious interior, power, and versatility.
+              Perfect for your next family vacation and off-road adventures.
+            </p>
+          </div>
+          <div class="cards card3">
+            <picture
+              ><img src="./assets/images/icon-luxury.svg" alt="icon luxury"
+            /></picture>
+            <h1>Luxury</h1>
+            <p>
+              Cruise in the best car brands without the bloated prices. Enjoy
+              the enhanced comfort of a luxury rental and arrive in style.
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- !============  FOOTER [START here] ============*-->
+    <footer>
+      <div class="line"></div>
+      <div class="footer__container">
+        <div class="alexeg">
+          <span>Made With</span>
+          <img src="./assets/heart.png" alt="heart image" />
+          <span>By AlexEG © 2023</span>
+        </div>
+        <div class="accounts">
+          <a href="https://github.com/AlexEG" target="_blank">
+            <i class="fa-brands fa-github fa-fw fa-2x github"></i
+          ></a>
+          <a href="https://codepen.io/Alexander_EG" target="_blank">
+            <i class="fa-brands fa-codepen fa-fw fa-2x"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/mohamed-adel-69a452249/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin fa-fw fa-2x"></i
+          ></a>
+          <a
+            href="https://www.freecodecamp.org/fcc4dcee3ab-a388-4f70-9ad9-0ac52ed81dc7"
+            target="_blank"
+            ><i class="fa-brands fa-free-code-camp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!--!============  FOOTER [END here] ============* -->
   </body>
 </html>
